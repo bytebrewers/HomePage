@@ -1,7 +1,17 @@
+/* information */
+/* the .css file is split up based on what kind of reference is used toward an html tag: tags, class, id */
+
 /* tags */
 body {
+    margin: 0;
     background-color: lightblue;
 }
 /* class */
 
 /* id */
+#byte-brewers{
+    margin-top: 1em;
+    margin-left: 2em;
+    font-size: large;
+    font-weight: bold;
+}
