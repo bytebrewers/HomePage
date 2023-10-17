@@ -5,7 +5,7 @@
 /*
 dark            = #232B25
 dark brown      = #593926
-brown           = #DF9928
+brown           = #82501E
 dark orange     = #DF9928
 orange          = #E9BA2E
 light orange    = #FFD245
@@ -14,18 +14,19 @@ yellow          = #FFE08D
 
 /* tags */
 body {
+    display: flex;
+    justify-content: center;
     margin: 0;
-    background-color: lightblue;
+    background: linear-gradient(to right, #232B25, #82501E, #82501E, #82501E, #82501E, #82501E, #232B25);
 }
 /* class */
-
+.ascii{
+    font-size: 2vw;
+}
 /* id */
 #byte-brewers{
-    margin-top: 1em;
-    margin-left: 2em;
-    font-size: large;
     font-weight: 900;
-    background: linear-gradient(#DDDDDD, #FFAA00);
+    background: linear-gradient(#FFE08D, #E9BA2E, #DF9928, #FFE08D);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
