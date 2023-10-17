@@ -8,7 +8,7 @@
 ## parts
 * [x] ByteBrewers title in body
 * [ ] Icon in body
-* [ ] about us text
+* [x] about us text
 * [ ] about each person
 * [ ] field of study?
 * [ ] ale barrel design with index words and anchor links
