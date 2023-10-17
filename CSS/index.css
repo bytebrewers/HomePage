@@ -1,6 +1,17 @@
 /* information */
 /* the .css file is split up based on what kind of reference is used toward an html tag: tags, class, id */
 
+/* color palette */
+/*
+dark            = #232B25
+dark brown      = #593926
+brown           = #DF9928
+dark orange     = #DF9928
+orange          = #E9BA2E
+light orange    = #FFD245
+yellow          = #FFE08D
+*/
+
 /* tags */
 body {
     margin: 0;
@@ -13,5 +24,8 @@ body {
     margin-top: 1em;
     margin-left: 2em;
     font-size: large;
-    font-weight: bold;
+    font-weight: 900;
+    background: linear-gradient(#DDDDDD, #FFAA00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
