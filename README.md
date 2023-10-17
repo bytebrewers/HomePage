@@ -13,3 +13,4 @@
 * [ ] images of the members
 * [ ] field of study?
 * [x] ale barrel design with index words and anchor links
+* [ ] add some more bit numbers (not important)
