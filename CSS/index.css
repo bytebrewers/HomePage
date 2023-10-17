@@ -28,6 +28,13 @@ body {
 }
 .text{
     font-size: 5vw;
+    margin: 10%;
+    padding: 3%;
+    border-radius: 20px;
+    border: dashed #E9BA2E 1vw;
+    color: #FFE08D;
+    background-color: #82501E;
+    font-family: Georgia, serif;
 }
 .barrel{
     font-size: 2vw;
@@ -59,13 +66,4 @@ body {
     background: linear-gradient(#FFE08D, #FFD245, #FFD245, #DF9928);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-#about-us{
-    margin: 10%;
-    padding: 3%;
-    border-radius: 20px;
-    border: dashed #E9BA2E 1vw;
-    color: #FFE08D;
-    background-color: #82501E;
-    font-family: Georgia, serif;
 }
