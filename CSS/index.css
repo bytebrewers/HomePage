@@ -25,10 +25,7 @@ body {
     font-size: 2vw;
 }
 .text{
-    font-size: 1.2vw;
-    color: #FFE08D;
-}
-.text-back{
+    font-size: 5vw;
     background-color: #82501E;
 }
 /* id */
@@ -40,5 +37,10 @@ body {
 }
 
 #about-us{
+    margin: 3%;
+    padding: 1%;
+    border-radius: 5px;
+    border: dashed #FFE08D 1vw;
+    color: #FFE08D;
     font-family: Georgia, serif;
 }
