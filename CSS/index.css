@@ -24,6 +24,12 @@ body {
 .ascii-art{
     font-size: 2vw;
 }
+.barrel{
+    font-size: 2vw;
+    margin: 0;
+    font-weight: 900;
+    color: #E9BA2E
+}
 .text{
     font-size: 5vw;
 }
@@ -42,8 +48,4 @@ body {
     color: #FFE08D;
     background-color: #82501E;
     font-family: Georgia, serif;
-}
-#barrel{
-    font-weight: 900;
-    color: #E9BA2E
 }
