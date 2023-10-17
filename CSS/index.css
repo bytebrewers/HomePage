@@ -15,9 +15,10 @@ yellow          = #FFE08D
 /* tags */
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
-    background: linear-gradient(to right, #232B25, #82501E, #82501E, #82501E, #82501E, #82501E, #232B25);
+    background: linear-gradient(#FFFFFF0A, #82501E0A), linear-gradient(to right, #232B25, #82501E, #82501E, #82501E, #82501E, #82501E, #232B25);
 }
 /* class */
 .ascii{
