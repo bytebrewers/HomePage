@@ -9,6 +9,7 @@
 * [x] ByteBrewers title in body
 * [ ] Icon in body
 * [x] about us text
-* [ ] about each person
+* [x] about each member
+* [ ] images of the members
 * [ ] field of study?
-* [ ] ale barrel design with index words and anchor links
+* [x] ale barrel design with index words and anchor links
