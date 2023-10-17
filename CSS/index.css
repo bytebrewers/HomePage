@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    background: linear-gradient(#FFFFFF0A, #82501E0A), linear-gradient(to right, #232B25, #82501E, #82501E, #82501E, #82501E, #82501E, #232B25);
+    background: linear-gradient(to right, #232B25, #82501E, #82501E, #82501E, #82501E, #82501E, #232B25);
 }
 /* class */
 .ascii-art{
@@ -26,21 +26,24 @@ body {
 }
 .text{
     font-size: 5vw;
-    background-color: #82501E;
 }
 /* id */
 #byte-brewers{
     font-weight: 900;
-    background: linear-gradient(#FFE08D, #E9BA2E, #DF9928, #FFE08D);
+    background: linear-gradient(#FFE08D, #FFD245, #FFD245, #DF9928);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 #about-us{
-    margin: 3%;
-    padding: 1%;
-    border-radius: 5px;
-    border: dashed #FFE08D 1vw;
+    margin: 10%;
+    padding: 3%;
+    border-radius: 20px;
+    border: dashed #E9BA2E 1vw;
     color: #FFE08D;
+    background-color: #82501E;
     font-family: Georgia, serif;
+}
+#barrel{
+    font-weight: 900;
+    color: #E9BA2E
 }
