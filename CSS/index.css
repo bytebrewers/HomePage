@@ -21,8 +21,15 @@ body {
     background: linear-gradient(#FFFFFF0A, #82501E0A), linear-gradient(to right, #232B25, #82501E, #82501E, #82501E, #82501E, #82501E, #232B25);
 }
 /* class */
-.ascii{
+.ascii-art{
     font-size: 2vw;
+}
+.text{
+    font-size: 1.2vw;
+    color: #FFE08D;
+}
+.text-back{
+    background-color: #82501E;
 }
 /* id */
 #byte-brewers{
@@ -30,4 +37,8 @@ body {
     background: linear-gradient(#FFE08D, #E9BA2E, #DF9928, #FFE08D);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#about-us{
+    font-family: Georgia, serif;
 }
