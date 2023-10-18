@@ -7,10 +7,9 @@
 
 ## parts
 * [x] ByteBrewers title in body
-* [ ] Icon in body
+* [x] Icon in body
 * [x] about us text
 * [x] about each member
-* [ ] images of the members
-* [ ] field of study?
+* [x] images of the members
+* [x] field of study
 * [x] ale barrel design with index words and anchor links
-* [ ] add some more bit numbers (not important)
