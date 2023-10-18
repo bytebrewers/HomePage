@@ -41,6 +41,10 @@ img {
     margin: 1vw 5vw;
 }
 
+a {
+    color: #FFD245;
+}
+
 /* class */
 .ascii-art {
     font-size: 1.8vw;
@@ -89,7 +93,7 @@ img {
 }
 
 .topic-titles {
-    font-size: 6vw;
+    font-size: 4vw;
     font-family: Georgia, serif;
     color: #FFE08D;
 }
