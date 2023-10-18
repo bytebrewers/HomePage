@@ -51,8 +51,16 @@ a {
     font-weight: bold;
 }
 
+.subject {
+    font-size: 3vw;
+    padding: 0;
+    margin: 0 3%;
+    color: #FFE08D;
+    font-family: Georgia, serif;
+}
+
 .text {
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 3%;
     color: #FFE08D;
     font-family: Georgia, serif;
@@ -89,7 +97,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .topic-titles {
