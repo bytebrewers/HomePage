@@ -6,10 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ByteBrewers</title>
-    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="media/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
+<header>
 <pre id="byte-brewers" class="ascii-art">
  ,~~~~..~.  .~..~~~~~~~.,~~~.  ,~~~.   ,~~~.    ,~~~.  .~.  .~.,~~~.   ,~~.    .~~~.
  | .-.\\ \_/ )/|__   __|| .-'  | .-.\  | .-.\   | .-'  | |/\| || .-'  | .-.\  ( .-._)
@@ -18,91 +19,129 @@
  | |--' /| |      | |   |  `-. | |`-' /| |\ \   |  `--.|(/  \ ||  `--.| |\ \( `-'  )
  `-----' |_|      `-'    `.__.' `----' |_| \_\  `-----'|_|   \|`.___.'|_| \_\`----'
 </pre>
+</header>
+<main>
 
-<div class="text">
-    ByteBrewers is a dynamic team of skilled developers, specializing in crafting robust backend solutions.
-    With a diverse portfolio of diverse projects undertaken during our academic journey, we have honed both
-    our technical prowess and project management expertise, preparing us for the successful execution of
-    upcoming bachelor thesis projects.
-</div>
-
-<pre class="barrel">
+    <a class="barrel-anchor" href="#about-us">
+    <pre class="barrel-link">
         .---.-.------------------------------------------------------.-.---.
         |   | |                                                      | |   |
-        |   | |       { Here's a bit about us among the bytes }      | |   |
+        |   | |                Here's a byte about us                | |   |
         |   | |                                                      | |   |
 </pre>
+    </a>
 
-<a class="barrel-anchor" href="#snorre">
+    <a class="barrel-anchor" href="#snorre">
 <pre class="barrel-link">
         .---.-.------------------------------------------------------.-.---.
         |   | |                                                      | |   |
-        |   | |                     Snorre Ledal                     | |   |
+        |   | |                    Snorre Ledal                      | |   |
         |   | |                                                      | |   |
 </pre>
-</a>
+    </a>
 
-<a class="barrel-anchor" href="#michael">
+    <a class="barrel-anchor" href="#michael">
 <pre class="barrel-link">
         .---.-.------------------------------------------------------.-.---.
         |   | |                                                      | |   |
         |   | |                   Michaël Mendes                     | |   |
         |   | |                                                      | |   |
 </pre>
-</a>
+    </a>
 
-<a class="barrel-anchor" href="#poem">
+    <a class="barrel-anchor" href="#poem">
 <pre class="barrel-link">
         .---.-.------------------------------------------------------.-.---.
         |   | |                                                      | |   |
    _._  |   | |                 Pål-Øivind Mentveit                  | |   |
 ,,==|===|   | |                                                      | |   |
 </pre>
-</a>
+    </a>
 
-<a class="barrel-anchor">
+    <a class="barrel-anchor" href="#about-bachelor">
 <pre class="barrel-link">
 1       .---.-.------------------------------------------------------.-.---.
 0       |   | |                                                      | |   |
+1       |   | |                 About bachelor degree                | |   |
 1       |   | |                                                      | |   |
-1       |   | |                                                      | |   |
-</pre>
-</a>
-
-<pre class="barrel">
         '---'-'------------------------------------------------------'-'---'
 </pre>
-<section id="information-grid">
-    <div class="info-grid-item">
-        <h2 id="snorre" class="topic-titles">Snorre</h2>
+    </a>
+
+    <div class="topic-card">
+        <div class="topic-header">
+            <img src="media/favicon.svg">
+            <h2 id="about-us" class="topic-titles">A'Byte us</h2>
+            <p class="spacer"></p>
+        </div>
+        <p class="text">
+            ByteBrewers is a dynamic team of skilled developers, specializing in crafting robust backend solutions.
+            With a diverse portfolio of diverse projects undertaken during our academic journey, we have honed both
+            our technical prowess and project management expertise, preparing us for the successful execution of
+            upcoming bachelor thesis projects.
+        </p>
+    </div>
+    <div class="topic-card">
+        <div class="topic-header">
+            <img src="media/snorre.jpg">
+            <h2 id="snorre" class="topic-titles">Snorre Ledal</h2>
+            <p class="spacer"></p>
+        </div>
         <p class="text">
             I am the team leader and possess a great passion for programming. I spend most of my time working with
             subjects
             from school and strive to understand the 'why' behind our work. Besides school I work as a Student
             Assistant,
-            helping students in subjects I have completed. I would describe myself as a calm and analytical person who
+            helping students in subjects I have completed. I would describe myself as a calm and analytical person
+            who
             likes
             learning and teaching what I learn with others.
         </p>
     </div>
-    <div class="info-grid-item">
-        <h2 id="michael" class="topic-titles">Michaël</h2>
+    <div class="topic-card">
+        <div class="topic-header">
+            <img src="media/micheal.jpg">
+            <h2 id="michael" class="topic-titles">Michaël Mendes</h2>
+            <p class="spacer"></p>
+        </div>
         <p class="text">
-            I have a great passion for programming and all types of technology. Free time generally goes to learn and
+            I have a great passion for programming and all types of technology. Free time generally goes to learn
+            and
             try out
             programming languages and concepts and try to understand how they function from the ground up.
         </p>
     </div>
-    <div class="info-grid-item">
-        <h2 id="poem" class="topic-titles">Pål-Øivind</h2>
+    <div class="topic-card">
+        <div class="topic-header">
+            <img src="media/paal.jpg">
+            <h2 id="poem" class="topic-titles">Pål-Øivind Mentveit</h2>
+            <p class="spacer"></p>
+        </div>
         <p class="text">
             I have a creative passion for IT, I like programming, as it allows me to make interesting solutions and
             systems.
-            On my own time I have learnt Ruby, some C++, built some computers, and two keyboards. I like exploring how
+            On my own time I have learnt Ruby, some C++, built some computers, and two keyboards. I like exploring
+            how
             things
             work, doing creative twists, with new ideas and old experience.
         </p>
     </div>
-</section>
+
+    <div class="topic-card">
+        <div class="topic-header">
+            <img src="media/kristiania.svg">
+            <h2 id="about-bachelor" class="topic-titles">About bachelor degree</h2>
+            <p class="spacer"></p>
+        </div>
+        <p class="text">
+            I have a creative passion for IT, I like programming, as it allows me to make interesting solutions and
+            systems.
+            On my own time I have learnt Ruby, some C++, built some computers, and two keyboards. I like exploring
+            how
+            things
+            work, doing creative twists, with new ideas and old experience.
+        </p>
+    </div>
+</main>
 </body>
 </html>
